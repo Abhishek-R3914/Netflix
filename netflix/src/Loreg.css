@@ -1,0 +1,27 @@
+.loreg {
+  display: flex;
+  justify-content: space-between; /* pushes Login left, Register right */
+  align-items: center;
+  padding: 20px 40px;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.loreg h2 {
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.loreg h2:hover {
+  color: #e50914; /* Netflix red */
+  transform: scale(1.1);
+}
+
+/* 🔴 Active tab stays red */
+.loreg h2.active {
+  color: #e50914;
+  transform: scale(1.1);
+}
