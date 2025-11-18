@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
@@ -42,3 +42,4 @@ function App() {
 }
 
 export default App;
+
